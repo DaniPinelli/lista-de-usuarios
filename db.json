@@ -31,6 +31,22 @@
       "email": "",
       "notas": "elii",
       "id": 4
+    },
+    {
+      "nombre": "Pri",
+      "empresa": "Casa",
+      "telefono": "32174888877",
+      "email": "pri@gmail.com",
+      "notas": "pri",
+      "id": 5
+    },
+    {
+      "nombre": "Pingui",
+      "empresa": "No tiene",
+      "telefono": "465487777",
+      "email": "pingui@gmail.com",
+      "notas": "Hola",
+      "id": 6
     }
   ]
 }

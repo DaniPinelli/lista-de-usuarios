@@ -1,8 +1,10 @@
-import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Cliente = ({ cliente }) => {
 
-    const { nombre, empresa, email, telefono } = cliente
+    const navigate = useNavigate()
+
+    const { nombre, empresa, email, telefono, notas, id } = cliente
 
     return (
         <tr className="border-b hover:bg-gray-50 " >
@@ -16,6 +18,7 @@ const Cliente = ({ cliente }) => {
                 <button
                     type="button"
                     className="bg-green-600 hover:bg-green-900 block p-2 w-full mt-1 uppercase rounded text-white text-xs font-bold"
+                    onClick={() => navigate(`/clientes/${id}`)}
                 >Detalle</button>
                 <button
                     type="button"
