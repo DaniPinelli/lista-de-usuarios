@@ -1,28 +1,12 @@
 {
   "clientes": [
     {
-      "nombre": "nhnhnCV",
-      "empresa": "NCBV",
-      "telefono": "4654654654",
-      "email": "",
-      "notas": "ADSDS",
-      "id": 1
-    },
-    {
       "nombre": "Dani",
       "empresa": "onda",
       "telefono": "3413881709",
       "email": "test@gmail.com",
       "notas": "adasdsa",
       "id": 2
-    },
-    {
-      "nombre": "Dani",
-      "empresa": "onda",
-      "telefono": "3413881709",
-      "email": "test@gmail.com",
-      "notas": "adasdsa",
-      "id": 3
     },
     {
       "nombre": "Eli",
